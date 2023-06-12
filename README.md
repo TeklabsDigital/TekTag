@@ -72,7 +72,7 @@ Our biosensor utilizes a range of high-performance components to achieve its fun
 
 - **STM32WB55VG:** This is a BLE 5.3 dual-core, multi-protocol and ultra-low-power 2.4 GHz MCU system on chip. Supporting mesh networking, the STM32WB is the brain of our sensor and responsible for data processing and wireless communication.
 
-- **MLPF-WB55-01E3:** This is an integrated filter module for STM32WB55. It enhances the wireless reliability and performance of our sensor.
+- **MLPF-WB55-01E3:** This is an integrated filter module for STM32WB55, by ST. It increases board space through reduced PCB component count.
 
 - **BQ51052BYFP:** This is a high-efficiency, Qi-compliant wireless power receiver. It enables our sensor to be charged wirelessly.
 
