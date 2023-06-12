@@ -30,6 +30,27 @@ The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi chargi
 - Security Systems
 - Drone Navigation
 
+## BLE Support and Mesh Technology
+
+One of the key features of the TekTag is its compatibility with the STM32WB ecosystem, which offers support for a variety of Bluetooth Low Energy (BLE) protocols. BLE is a power-efficient version of classic Bluetooth and is designed for short-range communication between devices. 
+
+A particularly exciting protocol within this ecosystem is BLE Mesh technology. BLE Mesh allows for many-to-many communication, creating a network of interconnected devices that can communicate with each other. This is an essential feature when deploying large numbers of TekTag devices in a hospital setting.
+
+### Benefits of BLE Mesh Technology
+
+There are several key benefits of using BLE Mesh technology in a TekTag deployment:
+
+1. **Scalability**: BLE Mesh networks can theoretically support up to 32,767 devices, making them highly scalable. This is ideal for large-scale deployments in hospitals, where you might need to monitor many patients simultaneously.
+
+2. **Reliability**: In a mesh network, data can take multiple paths to reach its destination, which increases the network's overall reliability. If one device fails or is disconnected, the network can automatically reconfigure itself to ensure data still reaches its destination.
+
+3. **Range**: While individual BLE devices have a limited range, a mesh network can extend that range significantly. Each device in the network can act as a relay, passing messages from one device to another. This allows data to travel large distances across the network, making it possible to cover an entire hospital.
+
+4. **Power Efficiency**: Despite their capabilities, BLE Mesh networks are highly power efficient. This is crucial for TekTag devices, which need to operate for extended periods without recharging.
+
+By leveraging the BLE protocols and mesh technology available in the STM32WB ecosystem, TekTag devices can provide a scalable, reliable, and power-efficient solution for patient monitoring in hospitals. This technology is central to our mission of improving patient outcomes and transforming healthcare delivery.
+
+
 ## **Hardware/Electronics**
 
 Our biosensor utilizes a range of high-performance components to achieve its functionality:
