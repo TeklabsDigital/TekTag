@@ -68,9 +68,9 @@ The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi chargi
 
 ## [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
 
-One of the key features of the TekTag is its compatibility with the STM32WB ecosystem, which offers support for a variety of Bluetooth Low Energy (BLE) protocols. BLE is a power-efficient version of classic Bluetooth and is designed for short-range communication between devices. 
+One of the key features of the TekTag Bio™ is its compatibility with the STM32WB ecosystem, which offers support for a variety of Bluetooth Low Energy (BLE) protocols. BLE is a power-efficient version of classic Bluetooth and is designed for short-range communication between devices. 
 
-A particularly exciting protocol within this ecosystem is BLE Mesh technology. BLE Mesh allows for many-to-many communication, creating a network of interconnected devices that can communicate with each other. This is an essential feature when deploying large numbers of TekTag devices in a hospital setting.
+A particularly exciting protocol within this ecosystem is BLE Mesh technology. BLE Mesh allows for many-to-many communication, creating a network of interconnected devices that can communicate with each other. This is an essential feature when deploying large numbers of TekTag Bio™ devices in a hospital setting.
 
 ### [Benefits of BLE Mesh Technology](#benefits-of-ble-mesh-technology)
 
