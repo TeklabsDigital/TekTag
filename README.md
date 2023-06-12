@@ -25,9 +25,12 @@ Our biosensor provides a plethora of features designed to enhance the quality of
 
 - Telehealth capabilities
 - Patient monitoring
-- Fall detection
-- Dementia geofencing
-- Cardiograms
+- Pressure area management - bed turn and movement detection
+- Cardiac monitoring via Ballistocardiology (BCG)
+- Patient Fall detection
+- Dementia geo-fence alerting
+- Respiratory monitoring
+- Sleep pattern monitoring
 
 ![Hospital Biosensor](https://github.com/TeklabsDigital/TekTag/blob/main/images/hospital-biosensor.jpg)
 
