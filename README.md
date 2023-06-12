@@ -127,13 +127,13 @@ Having a six-layer PCB with tented vias under a BGA (Ball Grid Array) is importa
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png" alt="TekTag Bio™ PCB Back 3D" width="600">
 
-### TekTag Bio™ with Silicon Holder
+### TekTag Bio™ Sensor with Silicon Holder
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png" alt="TekTag Bio™ Profile" width="600">
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png" alt="TekTag Bio™ Profile Holder" width="600">
 
-### TekTag Bio™ Without Silicone Holder
+### TekTag Bio™ Sensor Without Silicone Holder
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png" alt="TekTag Bio™ Profile 2" width="600">
 
