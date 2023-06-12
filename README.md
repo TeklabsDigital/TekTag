@@ -14,6 +14,8 @@ Our biosensor provides a plethora of features designed to enhance the quality of
 - Dementia geofencing
 - Cardiograms
 
+![Hospital Biosensor](https://github.com/TeklabsDigital/TekTag/blob/main/images/hospital-biosensor.jpg)
+
 The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi charging features of the sensor make it versatile enough to be used in a wide variety of applications, such as:
 
 - Sports Performance Analysis
@@ -28,13 +30,11 @@ The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi chargi
 - Security Systems
 - Drone Navigation
 
-![Hospital Biosensor](https://github.com/TeklabsDigital/TekTag/blob/main/images/hospital-biosensor.jpg)
-
 ## **Hardware/Electronics**
 
 Our biosensor utilizes a range of high-performance components to achieve its functionality:
 
-- **STM32WB55VG:** This is a dual-core, multi-protocol and ultra-low-power 2.4 GHz MCU system on chip. It is the brain of our sensor and responsible for data processing and wireless communication.
+- **STM32WB55VG:** This is a BLE 5.3 dual-core, multi-protocol and ultra-low-power 2.4 GHz MCU system on chip. Supporting mesh networking, the STM32WB is the brain of our sensor and responsible for data processing and wireless communication.
 
 - **MLPF-WB55-01E3:** This is an integrated filter module for STM32WB55. It enhances the wireless reliability and performance of our sensor.
 
@@ -50,14 +50,9 @@ Our biosensor utilizes a range of high-performance components to achieve its fun
 
 This repository is organized into several key sections:
 
-- **Electronics:** Updates and files related to the electronic components of the TekTag biosensor.
+- **Electronics:** Schematics, PCB updates and files related to the electronic components of the TekTag biosensor.
 - **Firmware/stm32:** The initial commit of the firmware for the STM32 microcontroller used in the device.
-- **Images:** Visual resources related to the project.
 - **Mechanical:** Files related to the mechanical aspects of the biosensor, including design and assembly instructions.
-
-## **Languages**
-
-The primary languages used in this repository are C (99.8%) and Assembly (0.2%).
 
 ## **Images**
 
@@ -66,7 +61,6 @@ Below are some images related to the project:
 ![TekTag Profile](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png)
 ![TekTag Profile Holder](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png)
 ![TekTag Profile 2](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png)
-![Hospital](https://github.com/TeklabsDigital/TekTag/blob/main/images/hospital.png)
 
 ## **Contribute**
 
