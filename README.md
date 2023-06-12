@@ -110,10 +110,6 @@ This repository is organized into several key sections:
 
 Below are some images related to the project:
 
-## [Images](#images)
-
-Below are some images related to the project:
-
 ### PCB Front - 6 Layers
 Having a six-layer PCB with tented vias under a BGA (Ball Grid Array) is important for our product's compact size, signal integrity, thermal management, and reliability. The extra layers allow for denser routing, reducing PCB size. Tented vias prevent solder draw into vias, preventing assembly problems under tight constraints.
 
