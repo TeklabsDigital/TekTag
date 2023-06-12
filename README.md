@@ -98,30 +98,24 @@ Below are some images related to the project:
 ### PCB Front
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front.png" alt="PCB Front" width="600">
-<sub><sup>PCB Front</sup></sub>
 
 ### PCB Front 3D
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front-3d.png" alt="PCB Front 3D" width="600">
-<sub><sup>PCB Front 3D</sup></sub>
 
 ### PCB Back 3D
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png" alt="PCB Back 3D" width="600">
-<sub><sup>PCB Back 3D</sup></sub>
 
 ### TekTag Biosensor with Silicon Holder
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png" alt="TekTag Profile" width="600">
-<sub><sup>TekTag Profile</sup></sub>
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png" alt="TekTag Profile Holder" width="600">
-<sub><sup>TekTag Profile Holder</sup></sub>
 
 ### TekTag Biosensor on Patient
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png" alt="TekTag Profile 2" width="600">
-<sub><sup>TekTag Profile 2</sup></sub>
 
 
 ## [PCB Size and Assembly](#pcb-size-and-assembly)
