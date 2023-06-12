@@ -116,7 +116,7 @@ Having a six-layer PCB with tented vias under a BGA (Ball Grid Array) is importa
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png" alt="TekTag Profile Holder" width="600">
 
-### TekTag Biosensor on Patient
+### TekTag Biosensor Without Silicone Holder
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png" alt="TekTag Profile 2" width="600">
 
