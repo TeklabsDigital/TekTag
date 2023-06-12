@@ -1,4 +1,4 @@
-# **TekTag: The Future of Telehealth**
+# **TekTag: The Open Source Biosensor**
 
 **TekTag** is a cutting-edge biosensor for telehealth, patient monitoring, fall detection, dementia geofencing, and cardiograms. This repository houses all the necessary files and resources to understand, modify, and contribute to this innovative project.
 
