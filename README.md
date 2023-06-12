@@ -7,7 +7,7 @@
 ## **Table of Contents**
 
 - [Biosensor Applications](#biosensor-applications)
-- [Applications](#applications)
+- [General Applications](#general-applications)
 - [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
   - [Benefits of BLE Mesh Technology](#benefits-of-ble-mesh-technology)
 - [Hardware/Electronics](#hardwareelectronics)
@@ -34,7 +34,7 @@ Our biosensor provides a plethora of features designed to enhance the quality of
 
 ![Hospital Biosensor](https://github.com/TeklabsDigital/TekTag/blob/main/images/hospital-biosensor.jpg)
 
-## [Applications](#applications)
+## [General Applications](#general-applications)
 
 The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi charging features of the sensor make it versatile enough to be used in a wide variety of applications, such as:
 
