@@ -6,7 +6,7 @@
 
 ## **Table of Contents**
 
-- [Features](#features)
+- [Biosensor Applications](#biosensor-applications)
 - [Applications](#applications)
 - [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
   - [Benefits of BLE Mesh Technology](#benefits-of-ble-mesh-technology)
@@ -19,7 +19,7 @@
 - [Licenses](#licenses)
 - [Contact Us](#contact-us)
 
-## [Features](#features)
+## [Biosensor Applications](#biosensor-applications)
 
 Our biosensor provides a plethora of features designed to enhance the quality of life for individuals and improve the capabilities of healthcare providers. It includes:
 
