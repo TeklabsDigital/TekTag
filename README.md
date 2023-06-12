@@ -91,11 +91,20 @@ This repository is organized into several key sections:
 
 Below are some images related to the project:
 
+PCB Front
 ![PCB Front](https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front.png)
+
+PCB Front 3D
 ![PCB Front 3D](https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front-3d.png)
+
+PCB Back 3d
 ![PCB Back 3D](https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png)
+
+TekTag Biosensor with Silicon Holder
 ![TekTag Profile](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png)
 ![TekTag Profile Holder](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png)
+
+TekTag Biosensor on Patient
 ![TekTag Profile 2](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png)
 
 ## [PCB Size and Assembly](#pcb-size-and-assembly)
