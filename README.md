@@ -86,7 +86,7 @@ There are several key benefits of using BLE Mesh technology in a TekTag Bio™ d
 
 Our biosensor utilizes a range of high-performance components to achieve its functionality:
 
-- **STM32WB55VG:** This is a BLE 5.3 dual-core, multi-protocol and ultra-low-power 2.4 GHz MCU system on chip. Supporting mesh networking, the STM32WB is the brain of our sensor and responsible for data processing and wireless communication.
+- **STM32WB55VG:** This is a BLE 5.3 dual-core, multi-protocol 2.4 GHz radio and ultra-low-power MCU system on chip. Supporting mesh networking, the STM32WB is the brain of our sensor and responsible for signal processing and wireless communication.
 
 - **MLPF-WB55-01E3:** This is an integrated filter module for STM32WB55, by ST. It increases board space through reduced PCB component count.
 
