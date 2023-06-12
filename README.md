@@ -16,7 +16,7 @@
 - [PCB Size and Assembly](#pcb-size-and-assembly)
 - [Why is this project Open Source?](#why-is-this-project-open-source)
 - [Supporting This Project](#supporting-this-project)
-- [Licenses](#license)
+- [Licenses](#licenses)
 - [Contact Us](#contact-us)
 
 ## [Features](#features)
@@ -138,7 +138,7 @@ TekTag is a community-driven project, and we welcome contributions from everyone
 
 5. **Partnerships**: We are open to partnerships with organizations that align with our mission of improving healthcare outcomes worldwide. If you represent such an organization, please get in touch.
 
-## [Licenses](#license)
+## [Licenses](#licenses)
 Project source code, hardware designs and 3d enclosure designs are open source and licensed under the terms of the attached license, with attribution to TekLabs Digital Pty Ltd, Australia
 
 ## [Contact Us](#contact-us)
