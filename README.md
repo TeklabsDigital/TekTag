@@ -48,7 +48,6 @@ The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi chargi
 - Dance Choreography
 - Wildlife Studies
 - Security Systems
-- Drone Navigation
 
 ## [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
 
