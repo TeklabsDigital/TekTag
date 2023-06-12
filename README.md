@@ -26,13 +26,14 @@ Introducing the latest open-source project from Teklabs Digital™, a sophistica
 - All 3D manufacturing files included
 - All PCB designs included
 - All schematics included
+- Audio feedback
 - BLE 5.4 - Mesh Networking & All protocols supported by the STM32WB
 - Compact integrated design
 - Haptic feedback
 - Qi charging
 - Small size - 28mm diameter (1.1 inches)
 - STM32WB ARM MCU
-- Touch pad for tap and gestures
+- Touch pad for finger tap and gestures
 - Ultra low power
 - Visual feedback through two RGB LEDs
 
