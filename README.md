@@ -6,6 +6,7 @@
 
 ## **Table of Contents**
 
+- [Features](#features)
 - [Biosensor Applications](#biosensor-applications)
 - [General Applications](#general-applications)
 - [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
@@ -18,6 +19,21 @@
 - [Supporting This Project](#supporting-this-project)
 - [Licenses](#licenses)
 - [Contact Us](#contact-us)
+
+## [**Features**](#features)
+- Haptic feedback
+- Visual feedback through two RGB LEDs
+- Touch pad for tap and gestures
+- Small size - 28mm diameter (1.1 inches)
+- BLE 5.4
+- Mesh Networking & All protocols supported by the STM32WB
+- Qi charging
+- STM32WB ARM MCU
+- Ultra low power
+- Compact integrated design
+- All 3d manufacturing files included
+- All schematics included
+- All PCB designs included
 
 ## [Biosensor Applications](#biosensor-applications)
 
