@@ -1,5 +1,7 @@
 # **TekTag Bio™ - The Open Source Biosensor**
 
+Introducing Teklabs Digital's latest open-source project, a sophisticated state-of-the-art IoT biosensor for patient monitoring, telehealth, pressure are management in hospitals, cardio monitoring, fall detection and dementia geofencing. This community project, released under an open source license, showcases our commitment to pushing the boundaries of digital design innovation.
+
 **TekTag Bio™** is a cutting-edge biosensor for telehealth, patient monitoring, fall detection, dementia geofencing, and cardiograms. This repository houses all the necessary files and resources to understand, modify, and contribute to this innovative project.
 
 ![TekTag Front](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-front.png)
@@ -183,3 +185,5 @@ Project source code, hardware designs and 3d enclosure designs are open source a
 If you're interested in contributing to the TekTag project, please contact us through our website at [https://teklabsdigital.com/contact/](https://teklabsdigital.com/contact/). We look forward to working with you to make TekTag the best it can be!
 
 Remember, every contribution, no matter how small, helps us move closer to our goal of improving healthcare outcomes around the world. Thank you for your support!
+
+About TekLabs - We design high tech products. www.teklabsdigital.com. Contact us about your design today.
