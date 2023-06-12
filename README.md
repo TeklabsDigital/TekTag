@@ -1,8 +1,8 @@
 # **TekTag: The Future of Telehealth**
 
-![TekTag Front](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-front.png)
-
 **TekTag** is a cutting-edge biosensor for telehealth, patient monitoring, fall detection, dementia geofencing and cardiograms. This repository houses all the necessary files and resources to understand, modify, and contribute to this innovative project.
+
+![TekTag Front](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-front.png)
 
 ## **Features**
 
@@ -83,6 +83,41 @@ Below are some images related to the project:
 ![TekTag Profile Holder](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png)
 ![TekTag Profile 2](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png)
 
-## **Contribute**
+## Why is this project Open Source?
 
-We welcome contributions to the Tek
+TekTag is a project rooted in the belief that quality healthcare should be accessible to everyone, regardless of where they are in the world. By open sourcing this project, we are aiming to democratize access to technology that has the potential to significantly improve patient outcomes, particularly in developing countries where resources may be limited. 
+
+There are several reasons why we believe an open source approach is best for this project:
+
+1. **Community Collaboration**: Open source projects foster a unique sense of collaboration and community. People from all around the world can contribute to the project, each bringing their unique perspectives and skills to the table. This diversity can drive innovation and improve the product in ways that wouldn't be possible in a closed source project.
+
+2. **Accelerated Development**: With more eyes on the project, issues can be identified and resolved more quickly. This can speed up the development process and result in a better final product.
+
+3. **Transparency**: Open source projects are transparent. Anyone can look at the code and understand exactly how the product works. This transparency can build trust and make it easier for people to adopt the technology.
+
+4. **Accessibility**: Perhaps the most important reason is that open source projects are accessible to everyone. Anyone, anywhere, can use and modify the product for their own needs. This is particularly important for healthcare technology, which has the potential to save lives and improve quality of life for millions of people.
+
+5. **Non-profit Motivation**: As a non-profit initiative, our primary goal is to support health outcomes worldwide. Our focus is on creating a product that can have a real impact on the world, not on generating profit.
+
+6. **Education**: Open sourcing this project also provides a valuable learning resource for students and professionals interested in biosensor technology. They can learn from and build upon the work that's already been done, accelerating their own learning and development.
+
+By open sourcing TekTag, we hope to create a product that's not only effective, but also widely accessible and continually improving. This is our contribution to supporting healthcare in both developing countries and in first world hospitals where critical care is needed. We invite you to join us in this endeavor, whether it's by using TekTag, contributing to its development, or simply learning from the project.
+
+## Supporting This Project
+
+TekTag is a community-driven project, and we welcome contributions from everyone, regardless of their background or experience level. There are several ways you can support this project:
+
+1. **Contributing Code**: If you have experience in UX/UI for the web application, Node.js for backend development, Express.js for the frontend, or STM32WB firmware engineering, your skills are particularly valuable. You can contribute directly to the codebase, helping us improve and expand the functionality of TekTag.
+
+2. **Testing and Reporting Issues**: Even if you're not a developer, you can still contribute by testing the TekTag and reporting any issues or bugs you find. This helps us ensure that the TekTag is as reliable and effective as possible.
+
+3. **Spreading the Word**: Help us grow the TekTag community by sharing the project with others. The more people who know about TekTag, the more we can achieve.
+
+4. **Donations**: As a not-for-profit project, we rely on donations to fund our work. If you're able to, consider making a donation to support the development of TekTag.
+
+5. **Partnerships**: We are open to partnerships with organizations that align with our mission of improving healthcare outcomes worldwide. If you represent such an organization, please get in touch.
+
+If you're interested in contributing to the TekTag project, please contact us through our website at [https://teklabsdigital.com/contact/](https://teklabsdigital.com/contact/). We look forward to working with you to make TekTag the best it can be!
+
+Remember, every contribution, no matter how small, helps us move closer to our goal of improving healthcare outcomes around the world. Thank you for your support!
+
