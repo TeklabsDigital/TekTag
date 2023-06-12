@@ -186,4 +186,7 @@ If you're interested in contributing to the TekTag Bio™ project, please contac
 
 Remember, every contribution, no matter how small, helps us move closer to our goal of improving healthcare outcomes around the world. Thank you for your support!
 
-About TekLabs - We design high tech products. www.teklabsdigital.com. Contact us about your design today.
+About TekLabs Digital Pty Ltd, Australia - Creating exceptional IoT products and advanced technologies to improve our quality of life 🌟IoT product research, innovation and design✨Let's get started!
+web www.teklabsdigital.com
+linkedin https://www.linkedin.com/in/trevorattemadigital/
+Contact us about your design today.
