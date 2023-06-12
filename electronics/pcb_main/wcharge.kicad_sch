@@ -8,7 +8,7 @@
     (title "TekTag BioSensor")
     (date "2023-05-18")
     (rev "0.2 alpha")
-    (company "© 2023 TekLabs Digital Pty Ltd")
+    (company "© 2023 Teklabs Digital Pty Ltd")
     (comment 1 "Designed by Trevor Attema")
     (comment 2 "MIT License ")
   )
@@ -1606,7 +1606,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 229.87 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 32d8a9be-f382-4572-b302-5af052ebec81)
     (property "Reference" "TP13" (id 0) (at 233.68 80.054 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1846,7 +1846,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 124.46 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 7ea318bf-a7b5-4add-87d6-356cfb8a34bc)
     (property "Reference" "TP9" (id 0) (at 128.27 81.324 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1864,7 +1864,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 190.5 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 81f68277-d1f9-429b-8357-b6f597244c9c)
     (property "Reference" "TP12" (id 0) (at 194.31 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1942,7 +1942,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 138.43 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 9cc5dee5-3bd2-4e66-bbca-ce52e040ef23)
     (property "Reference" "TP11" (id 0) (at 142.24 111.804 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2028,7 +2028,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 142.24 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid ae586eb0-bc77-437a-9600-af3e635dd869)
     (property "Reference" "TP10" (id 0) (at 146.05 81.324 0)
       (effects (font (size 1.27 1.27)) (justify left))

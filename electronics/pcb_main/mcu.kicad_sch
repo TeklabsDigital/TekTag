@@ -8,7 +8,7 @@
     (title "TekTag BioSensor")
     (date "2023-05-18")
     (rev "0.2 alpha")
-    (company "© 2023 TekLabs Digital Pty Ltd")
+    (company "© 2023 Teklabs Digital Pty Ltd")
     (comment 1 "Designed by Trevor Attema")
     (comment 2 "MIT License ")
   )
@@ -1802,7 +1802,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 251.46 133.35 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0566b5a5-d564-445b-b00e-9b4220e38ac8)
     (property "Reference" "TP2" (id 0) (at 255.27 130.854 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1899,7 +1899,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 125.73 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 1283dd7f-1ea9-449e-bea4-74bf6b0f4ad8)
     (property "Reference" "TP4" (id 0) (at 129.54 58.464 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1951,7 +1951,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 142.24 147.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 21990341-7c6b-4657-bc53-8674e26fde6a)
     (property "Reference" "TP5" (id 0) (at 146.05 144.824 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2185,7 +2185,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 39.37 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 65191900-e4c6-4f91-9f81-0cd570c0ac20)
     (property "Reference" "TP1" (id 0) (at 43.18 135.934 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2511,7 +2511,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 125.73 55.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e3b824c1-502f-463e-bde9-d8a32f29e9de)
     (property "Reference" "TP3" (id 0) (at 129.54 53.384 0)
       (effects (font (size 1.27 1.27)) (justify left))

@@ -1,4 +1,4 @@
-19826119396090949
+19804277037438689
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79001,132 +79001,41 @@ Logo WEEE
 0
 0
 0
-TekLabs
-CP1254 Battery
+Teklabs
+FFC_12_FLEX_PCB_END
 
 
 0
+8
+8
+Teklabs
+TouchSlider-3_8x8mm
+
+
+0
+18
 3
-2
-TekLabs
-Johanson_2450AT43B100E
-Johanson 2450AT43F0100 SMD antenna 2400-2500Mhz, 1dBi, https://www.johansontechnology.com/datasheets/2450AT43F0100/2450AT43F0100.pdf
-antenna
-0
-2
-2
-TekLabs
-LSM6DSV16XTR
+Teklabs
+TouchSlider-3_9x9mm
 
 
 0
-14
-14
-TekLabs
-MLPF-WB55-01E3
-
-
-0
-6
-6
-TekLabs
-MOLEX_5034800800
-
-
-0
-10
-10
-TekLabs
-MOLEX_5035481220
-
-
-0
-16
-16
-TekLabs
-MicroJump
-
-
-0
-2
-2
-TekLabs
-MicroJump-Open
-
-
-0
-2
-2
-TekLabs
-MicroTest-1
-
-
-0
-1
-1
-TekLabs
-MicroTest-2
-
-
-0
-2
-2
-TekLabs
-MicroTest-4
-
-
-0
-4
-4
-TekLabs
-SMT Motor VZ43FM1B8230001L
-
-
-0
+18
 3
-2
-TekLabs
-STM32WB55VGY6TR
+Teklabs
+TouchSlider-3_10x10mm
 
 
 0
-100
-100
-TekLabs
-TDFN4 1.2 x 1.6
-
-SIP32431DNP3-T1GE4 
-0
-5
-4
-TekLabs
-TekTagCopyright
+18
+3
+Teklabs
+TouchSlider-3_12x12mm
 
 
 0
-0
-0
-TekLabs
-Teklabs-Logo-Website
-
-
-0
-0
-0
-TekLabs
-Transducer TE044003-4
-
-
-0
-2
-2
-TekLabs
-Wireless Charger Receiver
-
-
-0
-2
-2
+18
+3
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

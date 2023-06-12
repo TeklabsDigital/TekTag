@@ -8,7 +8,7 @@
     (title "TekTag BioSensor")
     (date "2023-05-18")
     (rev "0.2 alpha")
-    (company "© 2023 TekLabs Digital Pty Ltd")
+    (company "© 2023 Teklabs Digital Pty Ltd")
     (comment 1 "Designed by Trevor Attema")
     (comment 2 "MIT License ")
   )
@@ -1544,7 +1544,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 59.69 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 8ec3dc75-ffdc-4509-8b80-72494ff115eb)
     (property "Reference" "TP6" (id 0) (at 63.5 72.434 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1643,7 +1643,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 88.9 77.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a1d6d67a-53ba-4724-92c5-d69ca81b2434)
     (property "Reference" "TP7" (id 0) (at 92.71 74.974 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1711,7 +1711,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint_Probe") (at 81.28 95.25 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid aca696a8-f811-4693-b038-e06d06d123b9)
     (property "Reference" "TP8" (id 0) (at 81.915 92.754 0)
       (effects (font (size 1.27 1.27)) (justify right))
