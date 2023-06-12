@@ -1,10 +1,25 @@
 # **TekTag: The Future of Telehealth**
 
-**TekTag** is a cutting-edge biosensor for telehealth, patient monitoring, fall detection, dementia geofencing and cardiograms. This repository houses all the necessary files and resources to understand, modify, and contribute to this innovative project.
+**TekTag** is a cutting-edge biosensor for telehealth, patient monitoring, fall detection, dementia geofencing, and cardiograms. This repository houses all the necessary files and resources to understand, modify, and contribute to this innovative project.
 
 ![TekTag Front](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-front.png)
 
-## **Features**
+## **Table of Contents**
+
+- [Features](#features)
+- [Applications](#applications)
+- [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
+  - [Benefits of BLE Mesh Technology](#benefits-of-ble-mesh-technology)
+- [Hardware/Electronics](#hardwareelectronics)
+- [Repository Structure](#repository-structure)
+- [Images](#images)
+- [PCB Size and Assembly](#pcb-size-and-assembly)
+- [Why is this project Open Source?](#why-is-this-project-open-source)
+- [Supporting This Project](#supporting-this-project)
+- [Licenses](#license)
+- [Contact Us](#contact-us)
+
+## [Features](#features)
 
 Our biosensor provides a plethora of features designed to enhance the quality of life for individuals and improve the capabilities of healthcare providers. It includes:
 
@@ -15,6 +30,8 @@ Our biosensor provides a plethora of features designed to enhance the quality of
 - Cardiograms
 
 ![Hospital Biosensor](https://github.com/TeklabsDigital/TekTag/blob/main/images/hospital-biosensor.jpg)
+
+## [Applications](#applications)
 
 The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi charging features of the sensor make it versatile enough to be used in a wide variety of applications, such as:
 
@@ -30,28 +47,23 @@ The small size, wireless Bluetooth, hermetically sealed enclosure, and Qi chargi
 - Security Systems
 - Drone Navigation
 
-## BLE Support and Mesh Technology
+## [BLE Support and Mesh Technology](#ble-support-and-mesh-technology)
 
 One of the key features of the TekTag is its compatibility with the STM32WB ecosystem, which offers support for a variety of Bluetooth Low Energy (BLE) protocols. BLE is a power-efficient version of classic Bluetooth and is designed for short-range communication between devices. 
 
 A particularly exciting protocol within this ecosystem is BLE Mesh technology. BLE Mesh allows for many-to-many communication, creating a network of interconnected devices that can communicate with each other. This is an essential feature when deploying large numbers of TekTag devices in a hospital setting.
 
-### Benefits of BLE Mesh Technology
+### [Benefits of BLE Mesh Technology](#benefits-of-ble-mesh-technology)
 
 There are several key benefits of using BLE Mesh technology in a TekTag deployment:
 
 1. **Scalability**: BLE Mesh networks can theoretically support up to 32,767 devices, making them highly scalable. This is ideal for large-scale deployments in hospitals, where you might need to monitor many patients simultaneously.
-
 2. **Reliability**: In a mesh network, data can take multiple paths to reach its destination, which increases the network's overall reliability. If one device fails or is disconnected, the network can automatically reconfigure itself to ensure data still reaches its destination.
-
 3. **Range**: While individual BLE devices have a limited range, a mesh network can extend that range significantly. Each device in the network can act as a relay, passing messages from one device to another. This allows data to travel large distances across the network, making it possible to cover an entire hospital.
-
 4. **Power Efficiency**: Despite their capabilities, BLE Mesh networks are highly power efficient. This is crucial for TekTag devices, which need to operate for extended periods without recharging.
 
-By leveraging the BLE protocols and mesh technology available in the STM32WB ecosystem, TekTag devices can provide a scalable, reliable, and power-efficient solution for patient monitoring in hospitals. This technology is central to our mission of improving patient outcomes and transforming healthcare delivery.
 
-
-## **Hardware/Electronics**
+## [Hardware/Electronics](#hardwareelectronics)
 
 Our biosensor utilizes a range of high-performance components to achieve its functionality:
 
@@ -67,7 +79,7 @@ Our biosensor utilizes a range of high-performance components to achieve its fun
 
 - **LSM6DSV16XTR:** This is a system-in-package featuring a 3D digital accelerometer and a 3D digital gyroscope. It enables our sensor to detect and log movements.
 
-## **Repository Structure**
+## [Repository Structure](#repository-structure)
 
 This repository is organized into several key sections:
 
@@ -75,15 +87,24 @@ This repository is organized into several key sections:
 - **Firmware/stm32:** The initial commit of the firmware for the STM32 microcontroller used in the device.
 - **Mechanical:** Files related to the mechanical aspects of the biosensor, including design and assembly instructions.
 
-## **Images**
+## [Images](#images)
 
 Below are some images related to the project:
 
+![PCB Front](https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front.png)
+![PCB Front 3D](https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front-3d.png)
+![PCB Back 3D](https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png)
 ![TekTag Profile](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png)
 ![TekTag Profile Holder](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png)
 ![TekTag Profile 2](https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png)
 
-## Why is this project Open Source?
+## [PCB Size and Assembly](#pcb-size-and-assembly)
+
+The TekTag biosensor is designed with a compact and highly-integrated PCB (Printed Circuit Board). Given its small size, specialized tools and expertise are required for the assembly process. This could pose a challenge for individual builders, especially those without access to such resources.
+
+Understanding this, if there is enough interest from the community, we are prepared to step in and help. We plan to manufacture and assemble the boards for everyone at minimal cost. This not only ensures the quality and consistency of the boards but also makes the TekTag biosensor more accessible to everyone interested in using or contributing to it.
+
+## [Why is this project Open Source?](#why-is-this-project-open-source)
 
 TekTag is a project rooted in the belief that quality healthcare should be accessible to everyone, regardless of where they are in the world. By open sourcing this project, we are aiming to democratize access to technology that has the potential to significantly improve patient outcomes, particularly in developing countries where resources may be limited. 
 
@@ -103,7 +124,7 @@ There are several reasons why we believe an open source approach is best for thi
 
 By open sourcing TekTag, we hope to create a product that's not only effective, but also widely accessible and continually improving. This is our contribution to supporting healthcare in both developing countries and in first world hospitals where critical care is needed. We invite you to join us in this endeavor, whether it's by using TekTag, contributing to its development, or simply learning from the project.
 
-## Supporting This Project
+## [Supporting This Project](#supporting-this-project)
 
 TekTag is a community-driven project, and we welcome contributions from everyone, regardless of their background or experience level. There are several ways you can support this project:
 
@@ -117,7 +138,10 @@ TekTag is a community-driven project, and we welcome contributions from everyone
 
 5. **Partnerships**: We are open to partnerships with organizations that align with our mission of improving healthcare outcomes worldwide. If you represent such an organization, please get in touch.
 
+## [Licenses](#license)
+Project source code, hardware designs and 3d enclosure designs are open source and licensed under the terms of the attached license, with attribution to TekLabs Digital Pty Ltd, Australia
+
+## [Contact Us](#contact-us)
 If you're interested in contributing to the TekTag project, please contact us through our website at [https://teklabsdigital.com/contact/](https://teklabsdigital.com/contact/). We look forward to working with you to make TekTag the best it can be!
 
 Remember, every contribution, no matter how small, helps us move closer to our goal of improving healthcare outcomes around the world. Thank you for your support!
-
