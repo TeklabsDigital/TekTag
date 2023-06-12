@@ -23,6 +23,7 @@ Introducing the latest open-source project from Teklabs Digital™, a sophistica
 - [Contact Us](#contact-us)
 
 ## [**Features**](#features)
+- Small size - 28mm diameter (1.1 inches)
 - All 3D manufacturing files included
 - All PCB designs included
 - All schematics included
@@ -31,7 +32,6 @@ Introducing the latest open-source project from Teklabs Digital™, a sophistica
 - Compact integrated design
 - Haptic feedback
 - Qi charging
-- Small size - 28mm diameter (1.1 inches)
 - STM32WB ARM MCU
 - Touch pad for finger tap and gestures
 - Ultra low power
