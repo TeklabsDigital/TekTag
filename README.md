@@ -21,19 +21,18 @@
 - [Contact Us](#contact-us)
 
 ## [**Features**](#features)
-- Haptic feedback
-- Visual feedback through two RGB LEDs
-- Touch pad for tap and gestures
-- Small size - 28mm diameter (1.1 inches)
-- BLE 5.4
-- Mesh Networking & All protocols supported by the STM32WB
-- Qi charging
-- STM32WB ARM MCU
-- Ultra low power
-- Compact integrated design
-- All 3d manufacturing files included
-- All schematics included
+- All 3D manufacturing files included
 - All PCB designs included
+- All schematics included
+- BLE 5.4 - Mesh Networking & All protocols supported by the STM32WB
+- Compact integrated design
+- Haptic feedback
+- Qi charging
+- Small size - 28mm diameter (1.1 inches)
+- STM32WB ARM MCU
+- Touch pad for tap and gestures
+- Ultra low power
+- Visual feedback through two RGB LEDs
 
 ## [Biosensor Applications](#biosensor-applications)
 
