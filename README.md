@@ -74,12 +74,12 @@ A particularly exciting protocol within this ecosystem is BLE Mesh technology. B
 
 ### [Benefits of BLE Mesh Technology](#benefits-of-ble-mesh-technology)
 
-There are several key benefits of using BLE Mesh technology in a TekTag deployment:
+There are several key benefits of using BLE Mesh technology in a TekTag Bio™ deployment:
 
 1. **Scalability**: BLE Mesh networks can theoretically support up to 32,767 devices, making them highly scalable. This is ideal for large-scale deployments in hospitals, where you might need to monitor many patients simultaneously.
 2. **Reliability**: In a mesh network, data can take multiple paths to reach its destination, which increases the network's overall reliability. If one device fails or is disconnected, the network can automatically reconfigure itself to ensure data still reaches its destination.
 3. **Range**: While individual BLE devices have a limited range, a mesh network can extend that range significantly. Each device in the network can act as a relay, passing messages from one device to another. This allows data to travel large distances across the network, making it possible to cover an entire hospital.
-4. **Power Efficiency**: Despite their capabilities, BLE Mesh networks are highly power efficient. This is crucial for TekTag devices, which need to operate for extended periods without recharging.
+4. **Power Efficiency**: Despite their capabilities, BLE Mesh networks are highly power efficient. This is crucial for TekTag Bio™ devices, which need to operate for extended periods without recharging.
 
 
 ## [Hardware/Electronics](#hardwareelectronics)
@@ -102,7 +102,7 @@ Our biosensor utilizes a range of high-performance components to achieve its fun
 
 This repository is organized into several key sections:
 
-- **Electronics:** Schematics, PCB updates and files related to the electronic components of the TekTag biosensor.
+- **Electronics:** Schematics, PCB updates and files related to the electronic components of the TekTag Bio™ biosensor.
 - **Firmware/stm32:** The initial commit of the firmware for the STM32 microcontroller used in the device.
 - **Mechanical:** Files related to the mechanical aspects of the biosensor, including design and assembly instructions.
 
@@ -117,36 +117,36 @@ Below are some images related to the project:
 ### PCB Front - 6 Layers
 Having a six-layer PCB with tented vias under a BGA (Ball Grid Array) is important for our product's compact size, signal integrity, thermal management, and reliability. The extra layers allow for denser routing, reducing PCB size. Tented vias prevent solder draw into vias, preventing assembly problems under tight constraints.
 
-<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front.png" alt="PCB Front" width="600">
+<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front.png" alt="TekTag Bio™ PCB Front" width="600">
 
 ### PCB Front 3D
 
-<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front-3d.png" alt="PCB Front 3D" width="600">
+<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-front-3d.png" alt="TekTag Bio™ PCB Front 3D" width="600">
 
 ### PCB Back 3D
 
-<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png" alt="PCB Back 3D" width="600">
+<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png" alt="TekTag Bio™ PCB Back 3D" width="600">
 
-### TekTag Biosensor with Silicon Holder
+### TekTag Bio™ with Silicon Holder
 
-<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png" alt="TekTag Profile" width="600">
+<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png" alt="TekTag Bio™ Profile" width="600">
 
-<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png" alt="TekTag Profile Holder" width="600">
+<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png" alt="TekTag Bio™ Profile Holder" width="600">
 
-### TekTag Biosensor Without Silicone Holder
+### TekTag Bio™ Without Silicone Holder
 
-<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png" alt="TekTag Profile 2" width="600">
+<img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png" alt="TekTag Bio™ Profile 2" width="600">
 
 
 ## [PCB Size and Assembly](#pcb-size-and-assembly)
 
-The TekTag biosensor is designed with a compact and highly-integrated PCB (Printed Circuit Board). Given its small size, specialized tools and expertise are required for the assembly process. This could pose a challenge for individual builders, especially those without access to such resources.
+The TekTag Bio™ is designed with a compact and highly-integrated PCB (Printed Circuit Board). Given its small size, specialized tools and expertise are required for the assembly process. This could pose a challenge for individual builders, especially those without access to such resources.
 
-Understanding this, if there is enough interest from the community, we are prepared to step in and help. We plan to manufacture and assemble the boards for everyone at minimal cost. This not only ensures the quality and consistency of the boards but also makes the TekTag biosensor more accessible to everyone interested in using or contributing to it.
+Understanding this, if there is enough interest from the community, we are prepared to step in and help. We plan to manufacture and assemble the boards for everyone at minimal cost. This not only ensures the quality and consistency of the boards but also makes the TekTag Bio™ more accessible to everyone interested in using or contributing to it.
 
 ## [Why is this project Open Source?](#why-is-this-project-open-source)
 
-TekTag is a project rooted in the belief that quality healthcare should be accessible to everyone, regardless of where they are in the world. By open sourcing this project, we are aiming to democratize access to technology that has the potential to significantly improve patient outcomes, particularly in developing countries where resources may be limited. 
+TekTag Bio™ is a project rooted in the belief that quality healthcare should be accessible to everyone, regardless of where they are in the world. By open sourcing this project, we are aiming to democratize access to technology that has the potential to significantly improve patient outcomes, particularly in developing countries where resources may be limited. 
 
 There are several reasons why we believe an open source approach is best for this project:
 
@@ -162,19 +162,19 @@ There are several reasons why we believe an open source approach is best for thi
 
 6. **Education**: Open sourcing this project also provides a valuable learning resource for students and professionals interested in biosensor technology. They can learn from and build upon the work that's already been done, accelerating their own learning and development.
 
-By open sourcing TekTag, we hope to create a product that's not only effective, but also widely accessible and continually improving. This is our contribution to supporting healthcare in both developing countries and in first world hospitals where critical care is needed. We invite you to join us in this endeavor, whether it's by using TekTag, contributing to its development, or simply learning from the project.
+By open sourcing TekTag Bio™, we hope to create a product that's not only effective, but also widely accessible and continually improving. This is our contribution to supporting healthcare in both developing countries and in first world hospitals where critical care is needed. We invite you to join us in this endeavor, whether it's by using TekTag Bio™, contributing to its development, or simply learning from the project.
 
 ## [Supporting This Project](#supporting-this-project)
 
-TekTag is a community-driven project, and we welcome contributions from everyone, regardless of their background or experience level. There are several ways you can support this project:
+TekTag Bio™ is a community-driven project, and we welcome contributions from everyone, regardless of their background or experience level. There are several ways you can support this project:
 
-1. **Contributing Code**: If you have experience in UX/UI for the web application, Node.js for backend development, Express.js for the frontend, or STM32WB firmware engineering, your skills are particularly valuable. You can contribute directly to the codebase, helping us improve and expand the functionality of TekTag.
+1. **Contributing Code**: If you have experience in UX/UI for the web application, Node.js for backend development, Express.js for the frontend, or STM32WB firmware engineering, your skills are particularly valuable. You can contribute directly to the codebase, helping us improve and expand the functionality of TekTag Bio™.
 
-2. **Testing and Reporting Issues**: Even if you're not a developer, you can still contribute by testing the TekTag and reporting any issues or bugs you find. This helps us ensure that the TekTag is as reliable and effective as possible.
+2. **Testing and Reporting Issues**: Even if you're not a developer, you can still contribute by testing the TekTag Bio™ and reporting any issues or bugs you find. This helps us ensure that the TekTag Bio™ is as reliable and effective as possible.
 
-3. **Spreading the Word**: Help us grow the TekTag community by sharing the project with others. The more people who know about TekTag, the more we can achieve.
+3. **Spreading the Word**: Help us grow the TekTag Bio™ community by sharing the project with others. The more people who know about TekTag Bio™, the more we can achieve.
 
-4. **Donations**: As a not-for-profit project, we rely on donations to fund our work. If you're able to, consider making a donation to support the development of TekTag.
+4. **Donations**: As a not-for-profit project, we rely on donations to fund our work. If you're able to, consider making a donation to support the development of TekTag Bio™.
 
 5. **Partnerships**: We are open to partnerships with organizations that align with our mission of improving healthcare outcomes worldwide. If you represent such an organization, please get in touch.
 
@@ -182,7 +182,7 @@ TekTag is a community-driven project, and we welcome contributions from everyone
 Project source code, hardware designs and 3d enclosure designs are open source and licensed under the terms of the attached license, with attribution to TekLabs Digital Pty Ltd, Australia
 
 ## [Contact Us](#contact-us)
-If you're interested in contributing to the TekTag project, please contact us through our website at [https://teklabsdigital.com/contact/](https://teklabsdigital.com/contact/). We look forward to working with you to make TekTag the best it can be!
+If you're interested in contributing to the TekTag Bio™ project, please contact us through our website at [https://teklabsdigital.com/contact/](https://teklabsdigital.com/contact/). We look forward to working with you to make TekTag Bio™ the best it can be!
 
 Remember, every contribution, no matter how small, helps us move closer to our goal of improving healthcare outcomes around the world. Thank you for your support!
 
