@@ -23,16 +23,17 @@ Introducing the latest open-source project from Teklabs Digital™, a sophistica
 - [Contact Us](#contact-us)
 
 ## [**Features**](#features)
+- Small size - 28mm diameter (1.1 inches)
 - All 3D manufacturing files included
 - All PCB designs included
 - All schematics included
+- Audio feedback
 - BLE 5.4 - Mesh Networking & All protocols supported by the STM32WB
 - Compact integrated design
 - Haptic feedback
 - Qi charging
-- Small size - 28mm diameter (1.1 inches)
 - STM32WB ARM MCU
-- Touch pad for tap and gestures
+- Touch pad for finger tap and gestures
 - Ultra low power
 - Visual feedback through two RGB LEDs
 
@@ -86,7 +87,7 @@ There are several key benefits of using BLE Mesh technology in a TekTag Bio™ d
 
 Our biosensor utilizes a range of high-performance components to achieve its functionality:
 
-- **STM32WB55VG:** This is a BLE 5.3 dual-core, multi-protocol and ultra-low-power 2.4 GHz MCU system on chip. Supporting mesh networking, the STM32WB is the brain of our sensor and responsible for data processing and wireless communication.
+- **STM32WB55VG:** This is a BLE 5.3 dual-core, multi-protocol 2.4 GHz radio and ultra-low-power MCU system on chip. Supporting mesh networking, the STM32WB is the brain of our sensor and responsible for signal processing and wireless communication.
 
 - **MLPF-WB55-01E3:** This is an integrated filter module for STM32WB55, by ST. It increases board space through reduced PCB component count.
 
@@ -110,10 +111,6 @@ This repository is organized into several key sections:
 
 Below are some images related to the project:
 
-## [Images](#images)
-
-Below are some images related to the project:
-
 ### PCB Front - 6 Layers
 Having a six-layer PCB with tented vias under a BGA (Ball Grid Array) is important for our product's compact size, signal integrity, thermal management, and reliability. The extra layers allow for denser routing, reducing PCB size. Tented vias prevent solder draw into vias, preventing assembly problems under tight constraints.
 
@@ -127,13 +124,13 @@ Having a six-layer PCB with tented vias under a BGA (Ball Grid Array) is importa
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/pcb-back-3d.png" alt="TekTag Bio™ PCB Back 3D" width="600">
 
-### TekTag Bio™ with Silicon Holder
+### TekTag Bio™ Sensor with Silicon Holder
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile.png" alt="TekTag Bio™ Profile" width="600">
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile-holder.png" alt="TekTag Bio™ Profile Holder" width="600">
 
-### TekTag Bio™ Without Silicone Holder
+### TekTag Bio™ Sensor Without Silicone Holder
 
 <img src="https://github.com/TeklabsDigital/TekTag/blob/main/images/tektag-profile2.png" alt="TekTag Bio™ Profile 2" width="600">
 
