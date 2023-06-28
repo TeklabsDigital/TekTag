@@ -1,0 +1,5 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H2, H3, H4",MountingHole_2.5mm_Pad_Via,4,MountingHole,
+J1,Molex 5035661102,1,SWD Device,
+J2,PinHeader_2x10_P1.27mm_Vertical,1,SWD Probe,
+JP1,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,1,5V Trace,
