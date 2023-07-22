@@ -25,12 +25,13 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-TIM_HandleTypeDef        htim1;
+TIM_HandleTypeDef        htim17;
 /* Private function prototypes -----------------------------------------------*/
+ void TimeBase_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
 /* Private functions ---------------------------------------------------------*/
 
 /**
-  * @brief  This function configures the TIM1 as a time base source.
+  * @brief  This function configures the TIM17 as a time base source.
   *         The time source is configured  to have 1ms time base with a dedicated
   *         Tick interrupt priority.
   * @note   This function is called  automatically at the beginning of program after
@@ -44,42 +45,45 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
   uint32_t              uwTimclock = 0;
   uint32_t              uwPrescalerValue = 0;
   uint32_t              pFLatency;
-  /*Configure the TIM1 IRQ priority */
-  HAL_NVIC_SetPriority(TIM1_UP_TIM16_IRQn, TickPriority ,0);
+  /*Configure the TIM17 IRQ priority */
+  HAL_NVIC_SetPriority(TIM1_TRG_COM_TIM17_IRQn, TickPriority ,0);
 
-  /* Enable the TIM1 global Interrupt */
-  HAL_NVIC_EnableIRQ(TIM1_UP_TIM16_IRQn);
+  /* Enable the TIM17 global Interrupt */
+  HAL_NVIC_EnableIRQ(TIM1_TRG_COM_TIM17_IRQn);
 
-  /* Enable TIM1 clock */
-  __HAL_RCC_TIM1_CLK_ENABLE();
+  /* Enable TIM17 clock */
+  __HAL_RCC_TIM17_CLK_ENABLE();
 
   /* Get clock configuration */
   HAL_RCC_GetClockConfig(&clkconfig, &pFLatency);
 
-  /* Compute TIM1 clock */
+  /* Compute TIM17 clock */
   uwTimclock = HAL_RCC_GetPCLK2Freq();
-  /* Compute the prescaler value to have TIM1 counter clock equal to 1MHz */
+
+  /* Compute the prescaler value to have TIM17 counter clock equal to 1MHz */
   uwPrescalerValue = (uint32_t) ((uwTimclock / 1000000U) - 1U);
 
-  /* Initialize TIM1 */
-  htim1.Instance = TIM1;
+  /* Initialize TIM17 */
+  htim17.Instance = TIM17;
 
   /* Initialize TIMx peripheral as follow:
-  + Period = [(TIM1CLK/1000) - 1]. to have a (1/1000) s time base.
+
+  + Period = [(TIM17CLK/1000) - 1]. to have a (1/1000) s time base.
   + Prescaler = (uwTimclock/1000000 - 1) to have a 1MHz counter clock.
   + ClockDivision = 0
   + Counter direction = Up
   */
-  htim1.Init.Period = (1000000U / 1000U) - 1U;
-  htim1.Init.Prescaler = uwPrescalerValue;
-  htim1.Init.ClockDivision = 0;
-  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim17.Init.Period = (1000000U / 1000U) - 1U;
+  htim17.Init.Prescaler = uwPrescalerValue;
+  htim17.Init.ClockDivision = 0;
+  htim17.Init.CounterMode = TIM_COUNTERMODE_UP;
 
-  if(HAL_TIM_Base_Init(&htim1) == HAL_OK)
+  if(HAL_TIM_Base_Init(&htim17) == HAL_OK)
   {
     /* Start the TIM time Base generation in interrupt mode */
-    return HAL_TIM_Base_Start_IT(&htim1);
+    return HAL_TIM_Base_Start_IT(&htim17);
   }
+  HAL_TIM_RegisterCallback(&htim17, HAL_TIM_PERIOD_ELAPSED_CB_ID, TimeBase_TIM_PeriodElapsedCallback);
 
   /* Return function status */
   return HAL_ERROR;
@@ -87,25 +91,42 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
 
 /**
   * @brief  Suspend Tick increment.
-  * @note   Disable the tick increment by disabling TIM1 update interrupt.
+  * @note   Disable the tick increment by disabling TIM17 update interrupt.
   * @param  None
   * @retval None
   */
 void HAL_SuspendTick(void)
 {
-  /* Disable TIM1 update Interrupt */
-  __HAL_TIM_DISABLE_IT(&htim1, TIM_IT_UPDATE);
+  /* Disable TIM17 update Interrupt */
+  __HAL_TIM_DISABLE_IT(&htim17, TIM_IT_UPDATE);
 }
 
 /**
   * @brief  Resume Tick increment.
-  * @note   Enable the tick increment by Enabling TIM1 update interrupt.
+  * @note   Enable the tick increment by Enabling TIM17 update interrupt.
   * @param  None
   * @retval None
   */
 void HAL_ResumeTick(void)
 {
-  /* Enable TIM1 Update interrupt */
-  __HAL_TIM_ENABLE_IT(&htim1, TIM_IT_UPDATE);
+  /* Enable TIM17 Update interrupt */
+  __HAL_TIM_ENABLE_IT(&htim17, TIM_IT_UPDATE);
+}
+
+ /**
+  * @brief  Period elapsed callback in non blocking mode
+  * @note   This function is called  when TIM6 interrupt took place, inside
+  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+  * a global variable "uwTick" used as application time base.
+  * @param  htim TIM handle
+  * @retval None
+  */
+
+void TimeBase_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  /* Prevent unused argument(s) compilation warning */
+  UNUSED(htim);
+
+  HAL_IncTick();
 }
 
