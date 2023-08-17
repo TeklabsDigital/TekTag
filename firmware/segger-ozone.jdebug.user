@@ -1,0 +1,30 @@
+
+
+OpenDocument="tl_mbox.c", FilePath="C:/Users/trevo/OneDrive/Documents/Projects/TekTag/public/firmware/stm32/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c", Line=188
+OpenDocument="stm32_seq.c", FilePath="C:/Users/trevo/OneDrive/Documents/Projects/TekTag/public/firmware/stm32/Utilities/sequencer/stm32_seq.c", Line=292
+OpenDocument="main.c", FilePath="C:/Users/trevo/OneDrive/Documents/Projects/TekTag/public/firmware/stm32/Core/Src/main.c", Line=116
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Call Stack", DockArea=RIGHT, x=0, y=2, w=322, h=536, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=1, y=2, w=672, h=536, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=1, w=995, h=305, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Break & Tracepoints", DockArea=LEFT, x=0, y=0, w=786, h=476, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VectorCatchIndexMask=254
+OpenWindow="Memory 1", DockArea=BOTTOM, x=0, y=0, w=1046, h=526, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x20008F50
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=995, h=608, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=1, w=786, h=306, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=2, w=786, h=235, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Call Graph", DockArea=LEFT, x=0, y=3, w=786, h=431, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Instruction Trace", DockArea=BOTTOM, x=1, y=0, w=1581, h=526, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=2, y=0, w=1211, h=526, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=0, PowerPaneShown=0, CodePaneShown=1, PinCursor="Cursor Movable", TimePerDiv="1 ns / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=0, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="933;-93", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="944;-93", CodeGraphLegendShown=1, CodeGraphLegendPosition="883;0"
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[261;611;227;100;100;287]
+TableHeader="Functions", SortCol="Size", SortOrder="DESCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[506;162;100;159;417]
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[481;210;288;140;322;136]
+TableHeader="Call Graph", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Code Total";"Code Local";"Depth";"Called From"], ColWidths=[400;153;157;149;153;112;164]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[130;118;1632]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[260;283;469]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[505;198;186;100]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[507;200;100;1616]
+TableHeader="Vector Catches", SortCol="", SortOrder="ASCENDING", VisibleCols=["";"Vector Catch";"Description"], ColWidths=[50;300;500]
+TableHeader="Break & Tracepoints", SortCol="", SortOrder="ASCENDING", VisibleCols=["";"Type";"Location";"Extras"], ColWidths=[100;100;131;455]
+WatchedExpression="htim1", Window=Watched Data 1
